@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:publisher>Pocket</dc:publisher>
+    <meta name="calibre:series_index" content="1"/>
+    <meta name="calibre:rating" content="8.00"/>
+    <dc:description>SUMMARY:
+A classic novel from the mind of the storyteller who captures the imagination of readers from around the world, and across two generationsScience Fiction Grand MasterROBERT A. HEINLEINSTARMAN JONESIt was a desperate time, when one's next meal and the comforts of home couldn't be taken for granted. Max Jones, a practical, hard-working young man, found his escape in his beloved astronomy books. When reality comes crashing in and his troubled home life forces him out on the road, Max finds himself adrift in a downtrodden land. Until an unexpected, ultimate adventure -- as a stowaway aboard an intergalactic spaceship -- carries him away...but to where? And when? And how could he ever get back? With the ship's pilot dead and his charts and tables are destroyed, Max must call upon all of his untested knowledge and skills in order to survive....</dc:description>
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="Heinlein, Robert A" opf:role="aut">Robert A Heinlein</dc:creator>
+    <meta name="calibre:timestamp" content="2011-01-10T16:20:35.462000+00:00"/>
+    <dc:title>Starman Jones</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>1975-01-15T05:00:00+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (0.7.27) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier opf:scheme="ISBN">9781416505501</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">832cd4ad-0ab1-4d94-98b6-c5c6e36530d1</dc:identifier>
+    <dc:subject>Science Fiction</dc:subject>
+  </metadata>
+  <manifest>
+    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="temp_calibre_txt_input_to_html_split_000.html" id="html2" media-type="application/xhtml+xml"/>
+    <item href="temp_calibre_txt_input_to_html_split_001.html" id="html1" media-type="application/xhtml+xml"/>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="html2"/>
+    <itemref idref="html1"/>
+  </spine>
+  <guide>
+    <reference href="titlepage.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>
