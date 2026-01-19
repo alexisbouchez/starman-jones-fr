@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper]{book}
+
+% Encodage et langue française
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% Polices
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Mise en page
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% En-têtes et pieds de page
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\textit{Starman Jones}}
+\fancyhead[RO]{\textit{\leftmark}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Chapitres personnalisés
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{40pt}
+
+% Liens hypertexte (pour PDF)
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    pdftitle={Starman Jones},
+    pdfauthor={Robert A. Heinlein},
+    pdfsubject={Traduction française},
+    bookmarks=true,
+}
+
+% Épigraphes et citations
+\usepackage{epigraph}
+
+% Pour les dialogues
+\usepackage{csquotes}
+\MakeOuterQuote{"}
+
+\begin{document}
+
+% Page de titre
+\begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    {\Huge\bfseries STARMAN JONES\par}
+    \vspace{1cm}
+    {\Large\itshape L'Astronavigateur Jones\par}
+    \vspace{2cm}
+    {\Large Robert A. Heinlein\par}
+    \vspace{1.5cm}
+    {\normalsize Traduit de l'anglais (États-Unis) par\par}
+    \vspace{0.3cm}
+    {\large\bfseries Alexis Bouchez\par}
+    \vspace{0.2cm}
+    {\small \url{https://www.alexisbouchez.com}\par}
+    \vfill
+    {\small Roman de science-fiction\par}
+    {\small Publié originalement en 1953\par}
+\end{titlepage}
+
+% Dédicace
+\chapter*{Dédicace}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{3cm}
+\textit{À mon ami Jim Smith}
+\end{center}
+\clearpage
+
+% Table des matières
+\tableofcontents
+\clearpage
+
+% Inclusion des chapitres
+\input{chapters/chapter01}
+\input{chapters/chapter02}
+\input{chapters/chapter03}
+\input{chapters/chapter04}
+\input{chapters/chapter05}
+\input{chapters/chapter06}
+\input{chapters/chapter07}
+\input{chapters/chapter08}
+\input{chapters/chapter09}
+\input{chapters/chapter10}
+\input{chapters/chapter11}
+\input{chapters/chapter12}
+\input{chapters/chapter13}
+\input{chapters/chapter14}
+\input{chapters/chapter15}
+\input{chapters/chapter16}
+\input{chapters/chapter17}
+\input{chapters/chapter18}
+\input{chapters/chapter19}
+\input{chapters/chapter20}
+\input{chapters/chapter21}
+\input{chapters/chapter22}
+
+\end{document}
