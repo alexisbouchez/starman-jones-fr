@@ -8,7 +8,7 @@ Traduction française du roman de science-fiction *Starman Jones* de Robert A. H
 
 ## Fichiers disponibles
 
-- **PDF** : `latex/main.pdf`
+- **PDF** : `starman-jones-fr.pdf`
 - **EPUB** : `starman-jones-fr.epub`
 - **Sources LaTeX** : `latex/`
 
@@ -36,10 +36,10 @@ pandoc main.tex -o ../starman-jones-fr.epub --metadata title="Starman Jones" --m
 
 ```
 ├── README.md
+├── starman-jones-fr.pdf
 ├── starman-jones-fr.epub
 └── latex/
     ├── main.tex
-    ├── main.pdf
     └── chapters/
         ├── chapter01.tex  # Le Tomahawk
         ├── chapter02.tex  # Le bon Samaritain
